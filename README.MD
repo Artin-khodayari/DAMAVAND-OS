@@ -89,6 +89,7 @@ USERNAME & PASSWORD(ecrypted) will save in a file named : USERNAME.DUP
 Once logged in, you can type help to see a list of available commands and start interacting with the simulated OS!
 
 ## ⚠️ Important Note on Custom Encryption
+
 [^1]: This project includes a custom encryption protocol developed for **educational purposes** and to **explore cryptographic principles**. It combines additive shifts and bitwise XOR operations.
 
 [^2]: It is crucial to understand that this **custom encryption is NOT cryptographically secure and should NOT be used for protecting real-world sensitive data or passwords**. Standard, battle-tested cryptographic libraries (like hashlib, bcrypt, pycryptodome in Python) are designed by experts and have undergone rigorous scrutiny to ensure their security. Always use these industry-standard libraries for any application requiring genuine data protection.
