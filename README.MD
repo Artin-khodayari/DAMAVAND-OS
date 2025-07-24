@@ -63,8 +63,8 @@ To run Damavand OS, you need Python 3 installed on your system.
 
 Clone the repository:
 
-``git clone https://github.com/Artin-khodayari/Damavand-OS.git
-cd Damavand-OS``
+``git clone https://github.com/Artin-khodayari/Damavand-OS.git``
+``cd Damavand-OS``
 
 ## Install dependencies:
 **Damavand-OS**  uses a few external Python libraries. You can install them using pip:
@@ -90,9 +90,9 @@ Once logged in, you can type help to see a list of available commands and start 
 
 ## ⚠️ Important Note on Custom Encryption
 
-[^1]: This project includes a custom encryption protocol developed for **educational purposes** and to **explore cryptographic principles**. It combines additive shifts and bitwise XOR operations.
+**This project includes a custom encryption protocol developed for _educational purposes_ and to _explore cryptographic principles_. It combines additive shifts and bitwise XOR operations.**
 
-[^2]: It is crucial to understand that this **custom encryption is NOT cryptographically secure and should NOT be used for protecting real-world sensitive data or passwords**. Standard, battle-tested cryptographic libraries (like hashlib, bcrypt, pycryptodome in Python) are designed by experts and have undergone rigorous scrutiny to ensure their security. Always use these industry-standard libraries for any application requiring genuine data protection.
+***It is crucial to understand that this **custom encryption is NOT cryptographically secure and should NOT be used for protecting real-world sensitive data or passwords**. Standard, battle-tested cryptographic libraries (like hashlib, bcrypt, pycryptodome in Python) are designed by experts and have undergone rigorous scrutiny to ensure their security. Always use these industry-standard libraries for any application requiring genuine data protection.***
 
 # 🧑‍💻 About the Developer
 
