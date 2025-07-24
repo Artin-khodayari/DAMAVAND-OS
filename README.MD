@@ -2,7 +2,7 @@
 **Damavand-OS** is a _terminal-based operating system simulator_ developed entirely in **Python**. The project provides an opportunity for enthusiasts to gain hands-on experience interacting with the **command line**, **managing files**, and even a **custom cryptographic protocol** in a simulated environment. The main goal of the project is to ***explore Python's capabilities in building command-line user interfaces and provide a platform for learning basic operating system concepts in an interactive format***.
 
 ## ✨ Features
-Damavand OS comes packed with a variety of commands and utilities:
+**Damavand-OS** comes packed with a variety of commands and utilities:
 
 User Authentication: Secure user registration and login system with a custom encryption protocol (for educational purposes).
 
