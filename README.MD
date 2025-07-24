@@ -59,7 +59,7 @@ System Commands:
 `about` : Information about the developer.
 
 ## 🚀 Installation
-To run Damavand OS, you need Python 3 installed on your system.
+To run DAMAVAND-OS, you need Python 3 installed on your system.
 
 Clone the repository:
 
@@ -73,7 +73,7 @@ Clone the repository:
 `pip install -r requirements.txt`
 
 ## 🎮 Usage
-To start **Damavand-OS**, simply run the main Python script:
+To start **DAMAVAND-OS**, simply run the main Python script:
 
 `python damavand.py`
 
