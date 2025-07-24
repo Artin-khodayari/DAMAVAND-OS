@@ -64,6 +64,7 @@ To run Damavand OS, you need Python 3 installed on your system.
 Clone the repository:
 
 ``git clone https://github.com/Artin-khodayari/Damavand-OS.git``
+
 ``cd Damavand-OS``
 
 ## Install dependencies:
