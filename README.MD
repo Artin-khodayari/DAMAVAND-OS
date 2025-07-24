@@ -104,4 +104,4 @@ You can contact me and report the problems and bugs to my [Gmail-Account](mailto
 Feel free to reach out for questions, feedback, or collaborations!
 
 # 📄 License
-[License](https://github.com/Artin-khodayari/DAMAVAND-OS/blob/main/License)
+Also read [License](https://github.com/Artin-khodayari/DAMAVAND-OS/blob/main/License)
