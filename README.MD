@@ -1,8 +1,8 @@
 # What is DAMAVAND-OS?
-**Damavand-OS** is a _terminal-based operating system simulator_ developed entirely in **Python**. The project provides an opportunity for enthusiasts to gain hands-on experience interacting with the **command line**, **managing files**, and even a **custom cryptographic protocol** in a simulated environment. The main goal of the project is to ***explore Python's capabilities in building command-line user interfaces and provide a platform for learning basic operating system concepts in an interactive format***.
+**DAMAVAND-OS** is a _terminal-based operating system simulator_ developed entirely in **Python**. The project provides an opportunity for enthusiasts to gain hands-on experience interacting with the **command line**, **managing files**, and even a **custom cryptographic protocol** in a simulated environment. The main goal of the project is to ***explore Python's capabilities in building command-line user interfaces and provide a platform for learning basic operating system concepts in an interactive format***.
 
 ## ✨ Features
-**Damavand-OS** comes packed with a variety of commands and utilities:
+**DAMAVAND-OS** comes packed with a variety of commands and utilities:
 
 User Authentication: Secure user registration and login system with a custom encryption protocol (for educational purposes).
 
@@ -63,12 +63,12 @@ To run DAMAVAND-OS, you need Python 3 installed on your system.
 
 Clone the repository:
 
-``git clone https://github.com/Artin-khodayari/Damavand-OS.git``
+``git clone https://github.com/Artin-khodayari/DAMAVAND-OS.git``
 
-``cd Damavand-OS``
+``cd DAMAVAND-OS``
 
 ## Install dependencies:
-**Damavand-OS**  uses a few external Python libraries. You can install them using pip:
+**DAMAVAND-OS**  uses a few external Python libraries. You can install them using pip:
 
 `pip install -r requirements.txt`
 
