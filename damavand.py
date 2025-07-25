@@ -65,7 +65,7 @@ def logo2():
                 \_______/ \__|  \__|\__|     \__|\__|  \__|\_ _/ \__|  \__|\__|  \__|\______/
                 """}
                 {f"{CYAN}(/)> Damavand project"}
-                {f"{CYAN}(/)> Hazrat ghassem school"}
+                {f"{CYAN}(/)> Made with laugh, happiness, and so much love"}
                 {f"{CYAN}(/)> version : 1.0"}
         ''')
 
