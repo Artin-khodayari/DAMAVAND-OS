@@ -322,7 +322,7 @@ try :
     while True :
         COMMAND = input(f'{RED}({YELLOW + USERNAME}{RED}) {CDP}{f'{CYAN} '}').lower()
         
-        if COMMAND == 'clear' or COMMAND == 'clr':
+        if COMMAND == clr :
             os.system(clr)
         elif COMMAND == 'sd' :
             current_action_key = getpass(f"{CYAN}Enter your KEY to shutdown: {RESET}")
