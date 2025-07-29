@@ -83,7 +83,7 @@ def lgcd():
 def help():
     commands = [
         "COMMANDS LIST :",
-        f'clear ---> Clear the screen',
+        f'{clear} ---> Clear the screen',
         "reboot ---> Restart the os",
         "sd ---> Shutdown the os",
         "damavand ---> Showing logo",
