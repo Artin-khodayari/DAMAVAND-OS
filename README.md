@@ -22,7 +22,23 @@ To build and run DAMAVAND-OS, you’ll need:
 - `ld` (binutils linker)
 - `qemu-system-i386` (for running the OS)
 
-On Ubuntu/Debian:
+Install requirements on Ubuntu/Debian:
 ```sh
 sudo apt update
 sudo apt install g++ nasm binutils qemu-system-x86
+```
+You can use ``Makefile`` instead of entering many commands on you terminal;
+But, how to use it?
+```sh
+sudo make
+```
+
+Run the ``kernel.elf`` using ``QEMU`` :
+```sh
+qemu-system-i386 -kernel DAMAVAND.elf
+```
+
+Or :
+```sh
+sudo make run
+```
