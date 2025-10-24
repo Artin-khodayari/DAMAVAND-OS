@@ -15,7 +15,7 @@ BUILD   = build
 # === Cpp Ojbect Files ===
 CPP_OBJS = \
  $(BUILD)/kernel.o $(BUILD)/vga.o $(BUILD)/ports.o \
- $(BUILD)/pic.o $(BUILD)/idt.o $(BUILD)/isr.o $(BUILD)/keyboard.o
+ $(BUILD)/pic.o $(BUILD)/idt.o $(BUILD)/isr.o $(BUILD)/keyboard.o $(BUILD)/snake.o
 
 # === Assembly Object Files ===
 ASM_OBJS = \
