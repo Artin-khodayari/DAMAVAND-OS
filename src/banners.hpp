@@ -65,10 +65,12 @@ void StartBanner(){
 void HelpBanner() {
     unsigned short oldColor = textColor;
     VGA::puts("Commands:\n");
-    VGA::puts("  clear --> Clears the screen\n");
-    VGA::puts("  hello --> Showing the logo\n");
-    VGA::puts("  about --> About OS & Developers\n");
+    VGA::puts("  clear --> clears the screen\n");
+    VGA::puts("  hello --> showing the logo\n");
+    VGA::puts("  about --> about OS & Developers\n");
     VGA::puts("  echo  --> print a message : echo <text>\n");
+    VGA::puts("  snake --> snake game (*^*)\n");
+    VGA::puts("  down  --> shutting down OS\n");
     VGA::puts("  help  --> ;)\n");
     VGA::setcolor(0xE, 0);
 }
