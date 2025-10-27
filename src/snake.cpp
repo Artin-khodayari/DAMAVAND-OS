@@ -1,5 +1,5 @@
-#include "snake.hpp"
-#include "vga.hpp"
+#include "../include/snake.hpp"
+#include "../include/vga.hpp"
 
 // low-level port IO (no stdlib)
 static inline void outb(u16 port, u8 val) {

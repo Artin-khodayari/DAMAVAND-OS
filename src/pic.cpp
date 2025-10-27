@@ -1,5 +1,5 @@
-#include "pic.hpp"
-#include "ports.hpp"
+#include "../include/pic.hpp"
+#include "../include/ports.hpp"
 
 namespace {
     const u8 PIC1=0x20, PIC2=0xA0;

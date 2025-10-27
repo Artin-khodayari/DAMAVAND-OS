@@ -1,4 +1,4 @@
-#include "idt.hpp"
+#include "../include/idt.hpp"
 namespace {
     IDT::Entry idt[256];
     IDT::Ptr   idtp;

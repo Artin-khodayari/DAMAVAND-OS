@@ -12,8 +12,8 @@ int cursorY = 0;
 const int VGA_WIDTH = 80;
 const int VGA_HEIGHT = 25;
 
-// Current text color (default = white on black)
-unsigned short textColor = 0x0F00;
+// Current text color
+unsigned short textColor = 0x0F00; // White on black
 
 // Write a character at position (x, y)
 void putchar_at(char c, int x, int y) {
@@ -50,7 +50,7 @@ void putchar(char c) {
     }
 }
 
-// ==== Banners ====
+// BANNERS
 
 void StartBanner(){
     unsigned short oldColor = textColor;
@@ -64,22 +64,25 @@ void StartBanner(){
 
 void HelpBanner() {
     unsigned short oldColor = textColor;
-    VGA::puts("Commands:\n");
-    VGA::puts("  clear --> clears the screen\n");
-    VGA::puts("  hello --> showing the logo\n");
-    VGA::puts("  about --> about OS & Developers\n");
-    VGA::puts("  echo  --> print a message : echo <text>\n");
-    VGA::puts("  snake --> snake game (*^*)\n");
-    VGA::puts("  down  --> shutting down OS\n");
-    VGA::puts("  help  --> ;)\n");
+    VGA::puts("COMMANDS:\n");
+    VGA::puts("  CLEAR   --> CLEARS THE SCREEN\n");
+    VGA::puts("  HELLO   --> SHOWING THE LOGO\n");
+    VGA::puts("  ABOUT   --> ABOUT OS & DEVELOPERS\n");
+    VGA::puts("  ECHO    --> PRINT A MESSAGE : ECHO <TEXT>\n");
+    VGA::puts("  COLOR   --> CHANGE TEXT COLORS : COLOR <FG> <BG>\n");
+    VGA::puts("              FG/BG ARE HEX VALUES (0-F)\n");
+    VGA::puts("              EXAMPLE: COLOR E 0   (Yellow on Black)\n");
+    VGA::puts("  SNAKE   --> SNAKE GAME (*^*)\n");
+    VGA::puts("  DOWN    --> SHUTTING DOWN OS\n");
+    VGA::puts("  HELP    --> SHOW THIS PAGE\n");
     VGA::setcolor(0xE, 0);
 }
 
 void AboutBanner() {
     unsigned short oldColor = textColor;
-    VGA::puts("DAMAVAND-OS is an Open-source project.\n");
-    VGA::puts("It's developed by Artin-khodayari.\n");
-    VGA::puts("You can see the source code on GitHub:\n");
+    VGA::puts("DAMAVAND-OS IS AN OPEN-SOURCE PROJECT.\n");
+    VGA::puts("IT'S DEVELOPED BY Artin-khodayari.\n");
+    VGA::puts("YOU CAN SEE THE SOURCE-CODE ON GITHUB:\n");
     VGA::puts("https://github.com/Artin-khodayari/DAMAVAND-OS\n");
     VGA::setcolor(0xE, 0);
 }

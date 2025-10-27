@@ -1,6 +1,6 @@
-#include "isr.hpp"
-#include "idt.hpp"
-#include "pic.hpp"
+#include "../include/isr.hpp"
+#include "../include/idt.hpp"
+#include "../include/pic.hpp"
 
 namespace ISR {
     static irq_handler_t handlers[16] = {0};

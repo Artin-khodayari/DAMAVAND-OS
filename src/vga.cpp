@@ -1,4 +1,4 @@
-#include "vga.hpp"
+#include "../include/vga.hpp"
 
 namespace {
     // types.hpp is assumed to define u8/u16/u32
