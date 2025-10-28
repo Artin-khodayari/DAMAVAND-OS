@@ -50,10 +50,10 @@ static void on_key(char c);
 typedef void (*cmd_fn)(const char* args); // ""
 
 // implementations
-static void cmd_help(const char*)   { HelpBanner(); }
-static void cmd_clear(const char*)  { VGA::clear(); VGA::setcolor(fg, bg); }
-static void cmd_about(const char*)  { AboutBanner(); }
-static void cmd_hello(const char*)  { VGA::setcolor(fg, bg); VGA::clear(); StartBanner(); VGA::puts("\n");}
+static void cmd_help(const char*)   { HelpBanner(); VGA::setcolor(fg, bg); }
+static void cmd_clear(const char*)  { VGA::clear();}
+static void cmd_about(const char*)  { AboutBanner(); VGA::setcolor(fg, bg); }
+static void cmd_hello(const char*)  { VGA::clear(); StartBanner(); VGA::puts("\n"); VGA::setcolor(fg, bg); }
 static void cmd_reset(const char*)  { VGA::setcolor(fg, bg); }
 static void cmd_echo(const char* args) {
     VGA::setcolor(fg, bg);
