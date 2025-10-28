@@ -53,7 +53,6 @@ void putchar(char c) {
 // BANNERS
 
 void StartBanner(){
-    unsigned short oldColor = textColor;
     VGA::puts(" ____  _____ _____ _____ _____ _____ _____ ____\n");  
     VGA::puts("|    \\|  _  |     |  _  |  |  |  _  |   | |    \\ \n");
     VGA::puts("|  |  |     | | | |     |  |  |     | | | |  |  |\n");
@@ -63,7 +62,6 @@ void StartBanner(){
 }
 
 void HelpBanner() {
-    unsigned short oldColor = textColor;
     VGA::puts("COMMANDS:\n");
     VGA::puts("  CLEAR   --> CLEARS THE SCREEN\n");
     VGA::puts("  HELLO   --> SHOWING THE LOGO\n");
@@ -79,7 +77,6 @@ void HelpBanner() {
 }
 
 void AboutBanner() {
-    unsigned short oldColor = textColor;
     VGA::puts("DAMAVAND-OS IS AN OPEN-SOURCE PROJECT.\n");
     VGA::puts("IT'S DEVELOPED BY Artin-khodayari.\n");
     VGA::puts("YOU CAN SEE THE SOURCE-CODE ON GITHUB:\n");
