@@ -1,5 +1,7 @@
 # DAMAVAND-OS
 
+[![Boom!](video/DAMAVAND-RECORD-FOR-README.mkv)]
+
 An educational, hobbyist operating system written in **C++** and **x86 assembly**, built completely **from scratch** without external runtime dependencies. Currently runs in **32-bit protected mode** and provides basic VGA text output, keyboard input handling, and interrupt management.
 
 ---
